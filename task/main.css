@@ -1,0 +1,236 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    overflow: visible;
+    
+}
+
+body{
+    width: fit-content;
+    align-content: center ;
+}
+
+.topnav{
+  margin: 0;
+  padding: 25px 10px;
+  width: 200px;
+  background-color: #2a8359;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.topnav a{
+  display: block;
+  color: #e1dddd;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 5px 0;
+  transition: all 0.3 ease;
+}
+
+.topnav a:hover{
+    background: #36a571;
+    color: #fff;
+}
+  
+.topnav a.active {
+    color: #fff;
+    background: #36a571;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 15px;
+    height: 600px;
+  }
+
+.container{
+    margin: 1em;
+    padding: 2em;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.container1{
+    text-align: center;
+}
+
+.image{
+    height: 75px;
+    width: 160px;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin: 0px;
+}
+
+.img-home{
+    height: 400px; 
+    width: 450px;
+}
+
+.img-about{
+    height: 570px; 
+    width: 600px;
+}
+
+.img-contact{
+    height: 500px; 
+    width: 550px;
+}
+
+.img-guide{
+    height: 400px;
+    width: 1000px; 
+    margin-left: 30px;
+}
+
+h4{
+    font-size:x-large; 
+    font-weight: bold; 
+    color: #2a8359;
+}
+
+.para1{
+    padding: 0 120px;
+    color: rgb(32, 134, 32);
+}
+
+.para1:hover{
+    text-shadow:#2a8359  ;
+    font-weight: bold;
+    font-size:xx-large ;
+}
+
+.card-para{
+    font-size: medium;
+}
+
+.card-icon{
+    color: #26bb76;
+
+}
+
+.submit{
+    background: white; 
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #2a8359;
+    border: 2px solid #2a8359;
+}
+
+.submit:hover{
+    background: #2a8359;
+    color: white;   
+}
+
+input[type=text], [type=email], textarea{
+    border-radius: 5px;
+    width: 500px;
+}
+
+input[type=text], [type=email], textarea {
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 5px 0px;
+    border: 1px solid #DDDDDD;
+}
+   
+input[type=text]:focus, [type=email]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 5px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+} 
+
+b{
+    color: #26bb76;
+}
+
+b:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 10px;
+    padding: 20px;
+}
+  
+.grid-container > div {
+    text-align: center;
+    padding: 20px 60px;
+    font-size: 30px;
+}
+  
+.item2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 10px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container2 {
+    padding: 2px 16px;
+}
+
+.div-guide{
+    text-align: center; 
+    padding: 90px 50px; 
+    font-size: larger;
+}
+
+.div-about{
+    text-align: center; 
+    padding: 150px 50px; 
+    font-size: larger;
+}
+
+.div-home{
+    font-size: large; 
+    font-weight: bolder; 
+}
+
+.div-contact{
+    background-color: #2a8359;
+    color: white;
+    width: fit-content; 
+    padding: 15px 10px; 
+    border-radius: 5px; 
+    margin-left: 30em;
+}
+
+.div-contact:hover{
+    background-color: white;
+    color: #2a8359;
+    border: 2px solid #2a8359;
+}
+
